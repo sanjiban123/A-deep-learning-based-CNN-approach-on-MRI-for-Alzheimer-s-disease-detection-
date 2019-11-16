@@ -1,0 +1,55 @@
+METRICS FROM EVALUATION FUNCTION
+Train loss: 0.0876735120166
+Train accuracy: 0.98581560326
+Test loss: 0.752459888763
+Test accuracy: 0.648936170847
+
+
+
+FORMULAS:
+Actual_No = tn + fp
+Actual_Yes = fn + tp
+Predicted_No = tn + fn
+Predicted_Yes = fp + tp
+Total = fp + fn + tn + tp
+Accuracy = (tp + tn)/Total
+Misclassification_Rate = (fp + fn)/Total
+True_Positive_Rate = tp/Actual_Yes
+False_Positive_Rate = fp/Actual_No
+Specificity = tn/Actual_No
+Precision = tp/Predicted_Yes
+Prevalance = Actual_Yes/Total
+
+TRAINING DATA METRICS:
+True Positive: 59
+True Negative: 80
+False Positive: 2
+False Negative: 0
+Accuracy: 0.985815602837
+Misclassification Rate: 0.0141843971631
+True Positive Rate: 1.0
+False Positive Rate: 0.0243902439024
+Specificity: 0.975609756098
+Precision: 0.967213114754
+Prevalence: 0.418439716312
+Precision Score: 0.967213114754
+Recall Score: 1.0
+F1 Score: 0.983333333333
+Cohen Kappa Score: 0.970993622711
+
+TESTING DATA METRICS:
+True Positive: 18
+True Negative: 43
+False Positive: 10
+False Negative: 23
+Accuracy: 0.648936170213
+Misclassification Rate: 0.351063829787
+True Positive Rate: 0.439024390244
+False Positive Rate: 0.188679245283
+Specificity: 0.811320754717
+Precision: 0.642857142857
+Prevalence: 0.436170212766
+Precision Score: 0.642857142857
+Recall Score: 0.439024390244
+F1 Score: 0.521739130435
+Cohen Kappa Score: 0.259665871122

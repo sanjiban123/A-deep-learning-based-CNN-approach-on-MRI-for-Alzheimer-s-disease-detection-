@@ -1,0 +1,24 @@
+
+METRICS FROM MODEL EVALUATION FUNCTION
+Train loss     : 0.134726577997
+Train accuracy : 0.4875
+Test loss      : 0.324550610781
+Test accuracy  : 0.35
+
+
+FORMULAS:
+Actual_No                 = tn + fp
+Actual_Yes                = fn + tp
+Predicted_No              = tn + fn
+Predicted_Yes             = fp + tp
+Total                     = fp + fn + tn + tp
+Accuracy                  = (tp + tn)/Total
+Misclassification_Rate    = (fp + fn)/Total
+True_Positive_Rate        = tp/Actual_Yes
+False_Positive_Rate       = fp/Actual_No
+Specificity               = tn/Actual_No
+Precision                 = tp/Predicted_Yes
+Prevalance                = Actual_Yes/Total
+
+
+TRAINING DATA METRICS:
